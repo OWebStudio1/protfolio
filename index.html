@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>O. Web Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0d1117;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #0d1117;
+      padding-left: 0.5rem;
+    }
+
+    .services ul {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    .services li::before {
+      content: "✓";
+      color: #0d1117;
+      margin-right: 0.5rem;
+    }
+
+    .projects .project {
+      background: #fff;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #0d1117;
+      color: #fff;
+    }
+
+    a {
+      color: #58a6ff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>O. Web Studio</h1>
+    <p>I build responsive websites that help small businesses grow.</p>
+  </header>
+
+  <section class="section services">
+    <h2>Services</h2>
+    <ul>
+      <li>Landing Page Design</li>
+      <li>Website Redesigns</li>
+      <li>HTML/CSS Bug Fixes</li>
+    </ul>
+  </section>
+
+  <section class="section projects">
+    <h2>Sample Projects</h2>
+    <div class="project">
+      <h3>Personal Portfolio</h3>
+      <p>A clean, responsive portfolio site built using HTML and CSS.</p>
+    </div>
+    <div class="project">
+      <h3>Business Landing Page</h3>
+      <p>A modern one-page website for a local coffee shop.</p>
+    </div>
+  </section>
+
+  <section class="section contact">
+    <h2>Contact Me</h2>
+    <p>Email me for a quote: <a href="mailto:owebstudio.contact@gmail.com">owebstudio.contact@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 O. Web Studio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
